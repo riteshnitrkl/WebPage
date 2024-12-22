@@ -1,0 +1,136 @@
+/* General Styling */
+body {
+    background-color: #121212; /* Dark background */
+    font-family: 'Arial', sans-serif;
+    color: #e5e5e5; /* Light gray text for readability */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Main Header (h1) */
+h1 {
+    color: #ffffff; /* White text */
+    background-color: #1e88e5; /* Bright blue */
+    text-align: center;
+    padding: 20px;
+    margin-top: 0;
+    border-bottom: 3px solid #ffd600; /* Yellow accent */
+}
+
+/* Sub-Header (h4) */
+h4 {
+    color: #ffffff; /* White text */
+    background-color: #3949ab; /* Darker blue */
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #e5e5e5; /* Light gray text */
+    padding: 10px;
+}
+
+/* Section Styling */
+section {
+    background-color: #1c1c1c; /* Slightly lighter dark background */
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #2c2c2c; /* Dark gray border */
+}
+
+th {
+    background-color: #1e88e5; /* Bright blue */
+    color: #ffffff; /* White text */
+    padding: 10px;
+}
+
+td {
+    background-color: #212121; /* Dark background */
+    color: #e5e5e5; /* Light gray text */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Form Styling */
+form {
+    background-color: #212121; /* Dark form background */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Form Inputs */
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #2c2c2c; /* Dark border */
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #121212; /* Dark input background */
+    color: #ffffff; /* White text */
+    box-sizing: border-box;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #1e88e5; /* Bright blue focus */
+    outline: none;
+}
+
+/* Buttons */
+button {
+    background-color: #ffd600; /* Bright yellow */
+    color: #121212; /* Dark text */
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #fbc02d; /* Slightly darker yellow */
+}
+
+/* Links */
+a {
+    color: #1e88e5; /* Bright blue link */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #1565c0; /* Darker blue on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #1c1c1c; /* Dark footer background */
+    color: #e5e5e5; /* Light gray text */
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-top: 3px solid #ffd600; /* Yellow accent */
+}
